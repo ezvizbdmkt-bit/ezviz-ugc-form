@@ -15,7 +15,6 @@
     }
     .container { max-width: 780px; margin: 0 auto; }
 
-    /* Header */
     .header {
       text-align: center;
       padding: 24px 16px;
@@ -30,7 +29,6 @@
     .header .hashtag { font-size: 12px; color: #6bb8ff; margin-top: 6px; }
     .header .period { font-size: 11px; color: #8899aa; margin-top: 6px; }
 
-    /* Awards Banner */
     .awards-banner {
       background: rgba(240, 192, 64, 0.1);
       border-radius: 14px;
@@ -52,7 +50,6 @@
     .total-row strong { color: #f0c040; }
     .grand-total { margin-top: 12px; padding-top: 12px; border-top: 1px solid rgba(240,192,64,0.2); text-align: center; font-size: 13px; color: #f0c040; font-weight: 600; }
 
-    /* Form Cards */
     .form-card {
       background: rgba(255,255,255,0.06);
       border-radius: 14px;
@@ -87,7 +84,6 @@
     .form-group select { cursor: pointer; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%238899aa' d='M6 8L1 3h10z'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 14px center; }
     .form-group select option { background: #1a3a5c; color: #e8ecf1; }
 
-    /* Radio Group - Mobile Optimized */
     .radio-group { display: flex; flex-direction: column; gap: 10px; }
     .radio-group label {
       display: flex;
@@ -112,7 +108,6 @@
       flex-shrink: 0;
     }
 
-    /* Checkbox */
     .checkbox-group {
       display: flex;
       align-items: flex-start;
@@ -132,14 +127,12 @@
     }
     .checkbox-group .checkbox-text { font-size: 13px; color: #c8d4e0; line-height: 1.6; }
 
-    /* Info Box */
     .info-box { background: rgba(107, 184, 255, 0.08); border-radius: 10px; padding: 14px; margin-bottom: 14px; border: 1px solid rgba(107, 184, 255, 0.15); }
     .info-box h3 { font-size: 13px; color: #6bb8ff; margin-bottom: 8px; }
     .info-box ul { list-style: none; padding-left: 0; }
     .info-box ul li { font-size: 12px; color: #a0b4c8; padding: 4px 0; padding-left: 16px; position: relative; line-height: 1.5; }
     .info-box ul li::before { content: "•"; color: #6bb8ff; position: absolute; left: 0; font-weight: bold; }
 
-    /* Submit Button */
     .submit-btn {
       width: 100%;
       padding: 16px;
@@ -161,27 +154,20 @@
     .submit-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(240, 192, 64, 0.3); }
     .submit-btn:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
 
-    /* Footer */
     .footer-note { text-align: center; margin-top: 16px; font-size: 11px; color: #667788; line-height: 1.8; }
 
-    /* Hidden */
     .hidden { display: none !important; }
 
-    /* Tag Highlight */
     .tag-highlight { background: rgba(240, 192, 64, 0.15); color: #f0c040; padding: 2px 6px; border-radius: 4px; font-weight: 600; font-size: 12px; }
 
-    /* Bilingual */
     .bilingual { display: block; }
     .bilingual .bn { font-family: 'Kalpurush', 'Noto Sans Bengali', sans-serif; font-size: 12px; color: #8899aa; margin-top: 3px; display: block; }
 
-    /* PNR Note */
     .pnr-note { font-size: 11px; color: #6bb8ff; margin-top: 6px; line-height: 1.5; }
 
-    /* Spinner */
     .spinner { display: none; width: 20px; height: 20px; border: 2px solid rgba(10,22,40,0.3); border-top-color: #0a1628; border-radius: 50%; animation: spin 1s linear infinite; }
     @keyframes spin { to { transform: rotate(360deg); } }
 
-    /* ===== SUCCESS PAGE - Redesigned ===== */
     .success-overlay {
       display: none;
       position: fixed;
@@ -230,34 +216,12 @@
     }
     .success-icon-wrap svg { width: 40px; height: 40px; color: #fff; }
 
-    .success-title {
-      font-size: 24px;
-      color: #4ade80;
-      font-weight: 700;
-      margin-bottom: 8px;
-      letter-spacing: 1px;
-    }
-    .success-title-bn {
-      font-family: 'Kalpurush', 'Noto Sans Bengali', sans-serif;
-      font-size: 18px;
-      color: #4ade80;
-      margin-bottom: 20px;
-    }
+    .success-title { font-size: 24px; color: #4ade80; font-weight: 700; margin-bottom: 8px; letter-spacing: 1px; }
+    .success-title-bn { font-family: 'Kalpurush', 'Noto Sans Bengali', sans-serif; font-size: 18px; color: #4ade80; margin-bottom: 20px; }
 
-    .success-divider {
-      width: 60px;
-      height: 3px;
-      background: linear-gradient(90deg, #f0c040, #4ade80);
-      border-radius: 2px;
-      margin: 0 auto 20px;
-    }
+    .success-divider { width: 60px; height: 3px; background: linear-gradient(90deg, #f0c040, #4ade80); border-radius: 2px; margin: 0 auto 20px; }
 
-    .success-body {
-      font-size: 14px;
-      color: #a0b4c8;
-      line-height: 1.8;
-      margin-bottom: 24px;
-    }
+    .success-body { font-size: 14px; color: #a0b4c8; line-height: 1.8; margin-bottom: 24px; }
     .success-body strong { color: #f0c040; }
     .success-body .tag-highlight { font-size: 11px; }
 
@@ -268,34 +232,12 @@
       margin-bottom: 24px;
       text-align: left;
     }
-    .success-tips h4 {
-      font-size: 13px;
-      color: #f0c040;
-      margin-bottom: 10px;
-      text-align: center;
-    }
+    .success-tips h4 { font-size: 13px; color: #f0c040; margin-bottom: 10px; text-align: center; }
     .success-tips ul { list-style: none; padding: 0; }
-    .success-tips li {
-      font-size: 12px;
-      color: #8899aa;
-      padding: 5px 0;
-      padding-left: 20px;
-      position: relative;
-      line-height: 1.5;
-    }
-    .success-tips li::before {
-      content: "✓";
-      color: #4ade80;
-      position: absolute;
-      left: 0;
-      font-weight: bold;
-    }
+    .success-tips li { font-size: 12px; color: #8899aa; padding: 5px 0; padding-left: 20px; position: relative; line-height: 1.5; }
+    .success-tips li::before { content: "✓"; color: #4ade80; position: absolute; left: 0; font-weight: bold; }
 
-    .success-actions {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
+    .success-actions { display: flex; flex-direction: column; gap: 10px; }
     .success-actions .btn {
       padding: 14px 20px;
       border-radius: 12px;
@@ -309,45 +251,20 @@
       justify-content: center;
       gap: 8px;
     }
-    .success-actions .btn-primary {
-      background: linear-gradient(135deg, #f0c040, #e0a820);
-      color: #0a1628;
-      border: none;
-    }
+    .success-actions .btn-primary { background: linear-gradient(135deg, #f0c040, #e0a820); color: #0a1628; border: none; }
     .success-actions .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(240, 192, 64, 0.3); }
-    .success-actions .btn-secondary {
-      background: rgba(255,255,255,0.08);
-      color: #e8ecf1;
-      border: 1px solid rgba(255,255,255,0.15);
-    }
+    .success-actions .btn-secondary { background: rgba(255,255,255,0.08); color: #e8ecf1; border: 1px solid rgba(255,255,255,0.15); }
     .success-actions .btn-secondary:hover { background: rgba(255,255,255,0.12); border-color: #f0c040; }
 
-    .success-footer {
-      margin-top: 20px;
-      font-size: 11px;
-      color: #556677;
-    }
+    .success-footer { margin-top: 20px; font-size: 11px; color: #556677; }
 
-    /* Confetti Animation */
-    .confetti-container {
-      position: fixed;
-      top: 0; left: 0; right: 0; bottom: 0;
-      pointer-events: none;
-      z-index: 1001;
-      overflow: hidden;
-    }
-    .confetti {
-      position: absolute;
-      width: 8px;
-      height: 8px;
-      animation: confettiFall 3s ease-out forwards;
-    }
+    .confetti-container { position: fixed; top: 0; left: 0; right: 0; bottom: 0; pointer-events: none; z-index: 1001; overflow: hidden; }
+    .confetti { position: absolute; width: 8px; height: 8px; animation: confettiFall 3s ease-out forwards; }
     @keyframes confettiFall {
       0% { transform: translateY(-20px) rotate(0deg); opacity: 1; }
       100% { transform: translateY(100vh) rotate(720deg); opacity: 0; }
     }
 
-    /* Mobile Optimizations */
     @media (max-width: 600px) {
       body { padding: 8px; }
       .header { padding: 18px 12px; border-radius: 12px; }
@@ -368,14 +285,14 @@
       .radio-group label { flex: 1; min-width: 140px; justify-content: center; }
     }
   </style>
-<base target="_blank">
+  <base target="_blank">
 </head>
 <body>
   <div class="container">
     <div class="header">
       <h1>EZVIZ BANGLADESH — UGC CAMPAIGN</h1>
       <div class="subtitle">#EzvizGuardMemory</div>
-      <div class="hashtag">#EzvizGuardYear #Guardyourmemory</div>
+      <div class="hashtag">#EzvizGuardYear #GuardYourMemory</div>
       <div class="period">Campaign Period: July 1 — August 31, 2026</div>
     </div>
 
@@ -400,7 +317,6 @@
       <div class="grand-total">🎯 1,000 Total Winners | Same Scoring System</div>
     </div>
 
-    <!-- FORM -->
     <form id="ugcForm">
 
       <div class="form-card">
@@ -427,7 +343,6 @@
           <h3>⚠️ Requirements</h3>
           <ul>
             <li>Account must be Public / অ্যাকাউন্টটি পাবলিক হতে হবে</li>
-            
             <li>Video must remain for 30+ days / ভিডিও কমপক্ষে ৩০ দিন থাকতে হবে</li>
           </ul>
         </div>
@@ -468,8 +383,7 @@
           <h3>📋 Content Rules</h3>
           <ul>
             <li>Duration ≥ 30 seconds / সময়কাল কমপক্ষে ৩০ সেকেন্ড</li>
-            <li>Hashtags: <span class="tag-highlight">#EzvizGuardYear</span> <span class="tag-highlight">#GuardYourMemory</span><br><br>
-            
+            <li>Hashtags: <span class="tag-highlight">#EzvizGuardYear</span> <span class="tag-highlight">#GuardYourMemory</span></li>
             <li>No Ezviz device? Say: <strong>"Ezviz, Guard and Never Miss"</strong></li>
             <li>No duplicate entries / একাধিকবার জমা দেওয়া যাবে না</li>
           </ul>
@@ -514,13 +428,12 @@
         <span id="btnText">SUBMIT / জমা দিন</span>
       </button>
       <div class="footer-note">
-        Deadline: August 31, 2026 23:59<br>শেষ তারিখ: ৩১ আগস্ট, ২০২৬<br>
+        Deadline: August 31, 2026 23:59 | শেষ তারিখ: ৩১ আগস্ট, ২০২৬<br>
         Winners: Sept 1–7, 2026 | বিজয়ী: ১–৭ সেপ্টেম্বর
       </div>
     </form>
   </div>
 
-  <!-- SUCCESS OVERLAY -->
   <div class="success-overlay" id="successOverlay">
     <div class="confetti-container" id="confettiContainer"></div>
     <div class="success-card">
@@ -534,7 +447,7 @@
       <div class="success-divider"></div>
       <div class="success-body">
         Thank you for your entry! Your submission has been recorded.<br><br>
-        Please ensure your video remains <strong>public</strong> with hashtags <span class="tag-highlight">#EzvizGuardYear</span> <span class="tag-highlight">#Guardyourmemory</span> <br><br>
+        Please ensure your video remains <strong>public</strong> with hashtags <span class="tag-highlight">#EzvizGuardYear</span> <span class="tag-highlight">#GuardYourMemory</span><br><br>
         Good luck in the competition! 🎉
       </div>
       <div class="success-tips">
@@ -550,7 +463,6 @@
         <button class="btn btn-primary" onclick="submitAnother()">
           <span>📝</span> Submit Another Entry / আরেকটি জমা দিন
         </button>
-        
       </div>
       <div class="success-footer">
         EZVIZ Bangladesh UGC Campaign 2026<br>
@@ -560,17 +472,14 @@
   </div>
 
   <script>
-    // CONFIGURATION - Replace with your actual Google Apps Script Web App URL
     const GAS_URL = "https://script.google.com/macros/s/AKfycbyauTfcoPIKtKEj61W9Hv-ekvsQMF7J2WTYrNx6EUqHzc4e8PM4SN7WyOyF0N1A4lXG/exec";
 
-    // Show/hide PNR field - ONLY for Channel Users, Optional for Installers
     document.querySelectorAll('input[name="participant_type"]').forEach(radio => {
       radio.addEventListener('change', function() {
         const pnrGroup = document.getElementById('pnrGroup');
         const pnrInput = pnrGroup.querySelector('input');
         if (this.value === 'channel') {
           pnrGroup.classList.remove('hidden');
-          // PNR is OPTIONAL for installers (not required)
           pnrInput.removeAttribute('required');
         } else {
           pnrGroup.classList.add('hidden');
@@ -579,7 +488,6 @@
       });
     });
 
-    // Form submission with AJAX
     document.getElementById('ugcForm').addEventListener('submit', async function(e) {
       e.preventDefault();
 
@@ -645,7 +553,6 @@
       btnText.textContent = 'SUBMIT / জমা দিন';
     }
 
-    // Confetti Effect
     function createConfetti() {
       const container = document.getElementById('confettiContainer');
       container.innerHTML = '';
